@@ -1,0 +1,89 @@
+.body {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar {
+    background-color: #2c2d36 !important;
+}
+
+.navbar .navbar-brand {
+    color: #fdfbfd;
+    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+    padding-left: 10px;
+}
+
+.navbar .nav-link {
+    color: #fff; 
+}
+
+.navbar-nav .active {
+    color: red;
+}
+
+.navbar .navbar-nav a:hover {
+    color: rgb(240, 188, 188);
+}
+
+.active{
+    color:red !important;
+}
+
+.grid_img {
+    max-width: 100%;
+    height: -webkit-fill-available;
+    border-radius: 10%;
+    object-fit: fill;
+}
+
+.col {
+    border: 1px solid rgb(194, 182, 182);
+    border-radius: 15px;
+    margin-right: 40px;
+    width: 10% !important;
+    max-height: 220px;
+}
+
+.col:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    border: 1px solid rgb(102, 4, 4);
+    cursor: pointer;
+}
+
+.row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    --bs-gutter-x: 0rem !important;
+    justify-content: center;
+}
+
+.container1 {
+    width: 100%;
+    background-color: #131f2a;
+}
+
+.container2 {
+    width: 100%;
+    background-color: #041525;
+}
+
+.section-title {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Handjet', cursive;
+    font-size: 50px;
+}
+
+.c-item {
+    height: 600px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+
+
