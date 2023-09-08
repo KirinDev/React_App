@@ -30,7 +30,7 @@ const GamesCarousel = () => {
         ></button>
       </div>
       <div className="carousel-inner">
-        <div className="carousel-item active c-item " data-bs-interval="1000">
+        <div className="carousel-item active c-item " data-bs-interval="8000">
           <img
             src="starfield.jpg"
             className="d-block w-100 c-img"
@@ -41,7 +41,7 @@ const GamesCarousel = () => {
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
-        <div className="carousel-item c-item" data-bs-interval="1000">
+        <div className="carousel-item c-item" data-bs-interval="8000">
           <img
             src="baldurs-gate-3.jpg"
             className="d-block w-100 c-img"
@@ -52,7 +52,7 @@ const GamesCarousel = () => {
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
-        <div className="carousel-item c-item" data-bs-interval="1000">
+        <div className="carousel-item c-item" data-bs-interval="8000">
           <img
             src="armored-core-6.jpg"
             className="d-block w-100 c-img"

@@ -30,10 +30,9 @@
 }
 
 .grid_img {
-    max-width: 100%;
-    height: -webkit-fill-available;
-    border-radius: 10%;
-    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 6%;
 }
 
 .col {
@@ -41,7 +40,7 @@
     border-radius: 15px;
     margin-right: 40px;
     width: 10% !important;
-    max-height: 220px;
+    height: auto;
 }
 
 .col:hover {
