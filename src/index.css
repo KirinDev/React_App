@@ -2,27 +2,55 @@
     background-color: rgb(0, 0, 0);
 }
 
+.brand {
+    border: 1px solid black;
+    background-color: #060D1A;
+    width: 100%;
+    text-align: center;
+}
+
+.brand-text {
+    color: #f1f1f1;
+    font-size: 50px;
+    font-family: 'Silkscreen', cursive;
+    text-shadow: 0 0 10px #FF0000, 0 0 10px #0000FF;
+}
+
 .navbar {
-    background-color: #2c2d36 !important;
+    background-color: #081121 !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
 }
 
 .navbar .navbar-brand {
     color: #fdfbfd;
     font-size: 24px;
-    font-family: 'Press Start 2P', cursive;
     padding-left: 10px;
 }
 
+.navbar-nav {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
 .navbar .nav-link {
+    font-family: 'Raleway', sans-serif;
     color: #fff; 
+    padding-left: 50px !important;
+    padding-right: 50px !important;
 }
 
 .navbar-nav .active {
-    color: red;
+    color:rgb(240, 188, 188) !important;
 }
 
 .navbar .navbar-nav a:hover {
     color: rgb(240, 188, 188);
+    background-color:darkcyan;
+}
+
+.navbar-toggler {
+    border: 1px solid #f1f1f1 !important;
 }
 
 .active{
@@ -80,8 +108,14 @@
 
 .c-img {
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     filter: brightness(0.6);
+}
+
+.video-container {
+    width: 75%;
+    height: auto;
+    background-color: #131f2a;
 }
 
 

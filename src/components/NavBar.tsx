@@ -1,15 +1,10 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGamepad } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          <FontAwesomeIcon icon={faGamepad} style={{ color: "#ffffff" }} />
-          Bonfire
-        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -27,13 +22,17 @@ const NavBar = () => {
               Home
             </a>
             <a className="nav-link" href="#">
-              Features
+              Games
             </a>
             <a className="nav-link" href="#">
               Pricing
             </a>
           </div>
         </div>
+        <form className="d-flex" role="search">
+          <input className="form-control me-2" type="search" placeholder="Search Game" aria-label="Search"></input>
+          <button className="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
     </nav>
   );

@@ -1,6 +1,16 @@
-import React from "react";
+interface Props {
+  label1: string;
+  label2: string;
+  label3: string;
+  description1: string;
+  description2: string;
+  description3: string;
+  image1: string;
+  image2: string;
+  image3: string;
+}
 
-const GamesCarousel = () => {
+const GamesCarousel = ({ label1, label2, label3, description1, description2, description3, image1, image2, image3 }: Props) => {
   return (
     <div
       id="gamesCarousel"
@@ -32,35 +42,35 @@ const GamesCarousel = () => {
       <div className="carousel-inner">
         <div className="carousel-item active c-item " data-bs-interval="8000">
           <img
-            src="starfield.jpg"
+            src={image1}
             className="d-block w-100 c-img"
             alt="Game1"
           ></img>
           <div className="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>{label1}</h5>
+            <p>{description1}</p>
           </div>
         </div>
         <div className="carousel-item c-item" data-bs-interval="8000">
           <img
-            src="baldurs-gate-3.jpg"
+            src={image2}
             className="d-block w-100 c-img"
             alt="Game2"
           ></img>
           <div className="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h5>{label2}</h5>
+            <p>{description2}</p>
           </div>
         </div>
         <div className="carousel-item c-item" data-bs-interval="8000">
           <img
-            src="armored-core-6.jpg"
+            src={image3}
             className="d-block w-100 c-img"
             alt="Game3"
           ></img>
           <div className="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5>{label3}</h5>
+            <p>{description3}</p>
           </div>
         </div>
       </div>
