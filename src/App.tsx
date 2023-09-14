@@ -15,7 +15,8 @@ function App() {
   return (
     <div>
       <NavBar />
-      <GamesCarousel />
+      <GamesCarousel label1="Starfield" label2="Baldur's Gate 3" label3="Armored Core VI" description1="From Bethesda" 
+      description2="From Larian Studios" description3="From FromSoftware" image1="starfield.jpg" image2="baldurs-gate-3.jpg" image3="armored-core-6.jpg" />
       <GamesGrid title="Souls RPG" games={games1} />
       <GamesGrid2 title="RPG" games={games2} />
     </div>
